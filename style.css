@@ -1,0 +1,62 @@
+@font-face {
+  font-family: "Noto-Sans";
+  src: url("./NotoSans-Bold.ttf");
+}
+
+body {
+  font-family: "Noto-Sans";
+  background-color: #161b24;
+  color: white;
+}
+
+.popup {
+  padding: 20px;
+  width: 300px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.heading {
+  color: #adf664;
+  font-size: 1.7rem;
+}
+
+.card {
+  padding-top: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.anime-img {
+  float: right;
+  background-position: center;
+  background-size: cover;
+  margin-left: 20px;
+  margin-bottom: 10px;
+  width: 80px;
+  height: 120px;
+}
+
+hr {
+  width: 90%;
+}
+
+h3 {
+  color: #adf664;
+  font-size: 1rem;
+  font-weight: 500;
+  padding-bottom: 8px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
